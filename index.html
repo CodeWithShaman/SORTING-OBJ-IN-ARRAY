@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="outer-box">
+        <div class="inner-box">
+
+            <!-- header -->
+
+            <header>
+                <div class="signup-header">
+                    <h1>Sign Up</h1>
+                    <p>It just takes 30 seconds</p>
+                </div>
+            </header>
+
+            <!-- Sign body -->
+
+            <main class="signup-body">
+
+                <!-- form -->
+
+                <form>
+
+                    <div class="input">
+
+                        <label for="FirstName">First Name</label>
+                        <input type="text" name="FirstName" placeholder="First Name" id="UserName">
+
+                    </div>
+
+                    <div class="input">
+
+                        <label for="LastName">Last Name</label>
+                        <input type="text" name="LastName" placeholder="Last Name" id="LastName">
+
+                    </div>
+
+                    <div class="input">
+
+                        <label for="YourEmail">Your Email</label>
+                        <input type="email" name="YourEmail" placeholder="Email" id="UserEmail">
+
+                    </div>
+
+                    <div class="input">
+
+                        <label for="PhoneNumber">Phone Number</label>
+                        <input type="number" name="PhoneNumber" placeholder="Optional" id="PhoneNumber">
+
+                    </div>
+
+                    <div class="input">
+
+                        <label for="YourPassword">Your Password</label>
+                        <input type="password" name="YourPassword" id="UserPassword"
+                            placeholder="at least 8 characters">
+
+                    </div>
+
+
+
+                    <div class="input">
+
+                        <button type="button" class="button" onclick="usersSignUp()">Sign Up</button>
+
+                    </div>
+
+
+
+                </form>
+
+            </main>
+
+
+        </div>
+
+
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
